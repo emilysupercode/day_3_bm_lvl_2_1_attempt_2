@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body h1,
+h2,
+h3 {
+    text-align: center;
+    border-radius: 15px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+body h1 {
+    border: 2px dashed purple;
+}
+
+body h2 {
+    border: 2px solid purple;
+    box-shadow: 2px 2px 10px 1px purple;
+}
+
+body h3 {
+    border: 5px double purple;
+}
+
+body p {
+    text-align: center;
+    border: 2px solid orange;
+    margin: 20px auto;
+    width: 450px
+}
+
+body ol,
+ul {
+    text-align: left;
+    border: 2px solid yellow;
+    margin: 20px auto;
+    width: 450px;
+}
+
+body ol li {
+    border-bottom: 2px solid red;
+}
+
+body ul li {
+    border-bottom: 2px solid red;
+}
